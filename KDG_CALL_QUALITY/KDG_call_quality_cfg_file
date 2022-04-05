@@ -1,0 +1,16 @@
+/* Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: MIT-0 */
+
+{
+    "phonenumber": {{random.number(100)}},
+    "type": "CALL_QUALITY",
+    "cell": {{random.number(
+        {
+            "min":0,
+            "max":2000
+        }
+    )}},
+    "status": "{{random.arrayElement(
+        ["OK","FAIL","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK","OK"]
+    )}}"
+}
