@@ -4,4 +4,4 @@ The Lambda application "Collect_feedback_from_Connect" serves the following func
 2. it reads the latest sentiment from DynamoDB
 3. it puts two objects in the event bucket
 
-Variable bucket_name must be updated with the name of the event bucket
+The variable bucket_name must be entered in the Environment variables of the Lambda function on https://aws.amazon.com/console/.
