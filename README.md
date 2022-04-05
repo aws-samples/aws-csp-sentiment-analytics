@@ -14,6 +14,10 @@ The structure is as follow:
 9. Trigger_Connect – Lambda function | Python
 10. Subscriber_engagement Contact Flow – Amazon Connect | json file
 11. Collect_feedback_from_Connect – Lambda function | Python
+12. KDG_CALL_DROP - Kinesis Data Generator | configuration file
+13. KDG_CALL_QUALITY - Kinesis Data Generator | configuration file
+14. KDG_LOW_BITRATE - Kinesis Data Generator | configuration file
+15. KDG_VIDEO_STALLING - Kinesis Data Generator | configuration file
 
 ## Security
 
